@@ -1,0 +1,64 @@
+HTML SHORT NOTES
+
+(1)BASIC STRUCTURE
+<!DOCTYPE html> : Declares HTML5 document type
+<html> : Root element of the document
+<head> : Metadata (title, meta, links, scripts, styles)
+<body> : Contains visible page content
+
+(2)TEXT & HEADINGS
+Headings: <h1> to <h6> (largest to smallest)
+Paragraph: <p>
+Bold text: <b> or <strong>
+Italic text: <i> or <em>
+
+(3)LISTS
+Ordered List: <ol><li>Item</li></ol>
+Unordered List: <ul><li>Item</li></ul>
+Description List: <dl><dt>Term</dt><dd>Definition</dd></dl>
+
+(4)LINKS & NAVIGATION
+Hyperlink: <a href="url">Link Text</a>
+target="_blank" : Opens link in new tab
+<nav> : Groups navigation links
+
+(5)IMAGES & MULTIMEDIA
+Image: <img src="file.jpg" alt="description">
+Audio: <audio controls><source src="file.mp3"></audio>
+Video: <video controls><source src="file.mp4"></video>
+
+(6)TABLES
+<tr> : Table row
+<th> : Table header cell
+<td> : Table data cell
+Example: <table><tr><th>Name</th><th>Age</th></tr></table>
+
+(7)FORMS
+<form action="url" method="post"> : Form container
+Input types: text, password, email, checkbox, radio, submit
+<label for="id"> : Connects label with input field
+
+(8)SEMANTIC TAGS (HTML5)
+<header>, <footer>, <main>, <section>, <article>, <nav>, <aside>
+
+(9)ATTRIBUTES
+Provide extra information
+Common: id, class, style, href, src, alt, title
+
+(10)DIV & SPAN
+<div> : Block-level container
+<span> : Inline container
+
+(11)META TAGS
+<meta charset="UTF-8"> : Character encoding
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> : Responsive design
+<meta name="description" content="..."> : SEO purpose
+
+(12)COMMENTS
+<!-- Comment --> : Ignored by browser
+
+(13)ACCESSIBILITY BASICS
+Use alt text for images
+Proper heading hierarchy (h1 > h2 > h3)
+Labels for form inputs
+Use ARIA roles for screen readers

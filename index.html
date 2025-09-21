@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Learning HTML with examples">
+  <meta name="keywords" content="HTML, basics, practice">
+  <meta name="author" content="Dhara">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My HTML Demo</title>
+</head>
+<body>
+
+  <!--Header & Intro-->
+  <header>
+    <h1>My HTML Demo Page</h1>
+    <p>A simple webpage created to cover fundamental HTML topics.</p>
+  </header>
+
+  <!--Headings & Text-->
+  <section>
+    <h2>Headings and Text Formatting</h2>
+    <p>This is an example of a <strong>bold word</strong>, an <em>italic word</em>, and an <u>underlined word</u> inside a paragraph.</p>
+    <h3>Subheading Example</h3>
+  </section>
+
+  <!--Different Lists-->
+  <section>
+    <h2>Lists in HTML</h2>
+    <h3>Numbered List</h3>
+    <ol>
+      <li>Step One</li>
+      <li>Step Two</li>
+    </ol>
+
+    <h3>Bulleted List</h3>
+    <ul>
+      <li>Mango</li>
+      <li>Orange</li>
+    </ul>
+
+    <h3>Definition List</h3>
+    <dl>
+      <dt>HTTP</dt>
+      <dd>HyperText Transfer Protocol</dd>
+      <dt>JS</dt>
+      <dd>JavaScript Programming Language</dd>
+    </dl>
+  </section>
+
+  <!--Links & Nav Menu-->
+  <section>
+    <h2>Links & Navigation Menu</h2>
+    <p><a href="https://www.wikipedia.org" target="_blank" title="Wikipedia">Visit Wikipedia</a></p>
+    <nav>
+      <a href="#media">Go to Media</a> |
+      <a href="#table">Go to Table</a> |
+      <a href="#form">Go to Form</a>
+    </nav>
+  </section>
+
+  <!--Images & Multimedia-->
+  <section id="media">
+    <h2>Images and Multimedia</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder image" width="180">
+    <br><br>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mpeg">
+      Audio playback not supported.
+    </audio>
+    <br><br>
+    <video controls width="300">
+      <source src="sample.mp4" type="video/mp4">
+      Video playback not supported.
+    </video>
+  </section>
+
+  <!--Tables Example-->
+  <section id="table">
+    <h2>Table Example</h2>
+    <table border="1" cellspacing="0" cellpadding="6">
+      <tr>
+        <th>Student</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td>Riya</td>
+        <td>88</td>
+      </tr>
+      <tr>
+        <td>Arjun</td>
+        <td>92</td>
+      </tr>
+    </table>
+  </section>
+
+  <!--Form Example-->
+  <section id="form">
+    <h2>Form Example</h2>
+    <form action="/register" method="post">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required><br><br>
+
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd" placeholder="Enter password"><br><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </section>
+
+  <!--Div & Span Demo-->
+  <section>
+    <h2>Div and Span</h2>
+    <div style="background: rgb(74, 102, 74); padding: 8px;">
+      This content is grouped inside a <b>div</b>.
+    </div>
+    <p>Here is a <span style="color: rgb(171, 171, 226);">blue-colored text</span> within a paragraph.</p>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <p>This is for footer</p>
+  </footer>
+
+</body>
+</html>
