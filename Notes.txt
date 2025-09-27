@@ -62,3 +62,14 @@ Use alt text for images
 Proper heading hierarchy (h1 > h2 > h3)
 Labels for form inputs
 Use ARIA roles for screen readers
+
+
+(14)XHTML
+Key Rules:
+
+All tags must be properly closed.
+Attributes must be quoted.
+Elements must be properly nested.
+Use lowercase tag names.
+Self-closing tags: <code>br</code>, <code>img</code>, <code>hr</code>.
+File should be saved as <code>.xhtml</code> for strict validation.
